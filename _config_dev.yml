@@ -3,7 +3,7 @@ title: Start Jekyll
 email: friendsofsullivan@gmail.com
 description: >
   A guide to getting started with Jekyll.
-baseurl: ""
+baseurl: "/fos"
 url: "http://localhost:4000"
 twitter_username: friendsofsullivan
 github_username:  friendsofsullivan
