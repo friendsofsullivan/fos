@@ -2,6 +2,100 @@
 layout: default
 ---
 
-  <h2>Main Page</h2>
+  <!-- <%- include('partials/contact_form') %> -->
+  
+  <div class="w-section hero-section home-page-hero">
 
-  Main content goes here. 
+    <!-- **************** NAV BAR ****************  -->
+    <div class="w-nav nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
+      <div class="w-container">
+        <a class="w-nav-brand" href="/">
+          <div class="logo-text">Friends of <strong data-new-link="true">Sullivan</strong>
+          </div>
+        </a>
+        <nav class="w-nav-menu w-preserve-3d nav-menu" role="navigation">
+          <a class="w-nav-link nav-link" href="/">Home</a>
+          <a class="w-nav-link nav-link" href="/about">About</a>
+          <a class="w-nav-link nav-link" href="/projects">Projects</a>
+          <a class="w-nav-link nav-link" href="/events_news">Events</a>
+          <a class="w-nav-link nav-link" href="/donate">Donate</a>
+          <a class="w-nav-link nav-link contact" data-ix="show-contact-overlay" href="#">Join Us</a>
+             
+        </nav>
+        <div class="w-nav-button menu-button">
+          <div class="w-icon-nav-menu"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <h1 class="home-page-heading" data-ix="hero-text">Sustaining Sullivan’s Future</h1>
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="w-section section top-section home-page">
+    <div class="w-container hero-container">
+      <div class="w-clearfix">
+        <div class="_60block" data-ix="tile-1">
+          <a class="w-inline-block hero-tile" href="/about">
+            <div class="tile-text">About
+              <br>Us</div>
+            <div class="tile-image">
+              <div class="tile-overlay"></div>
+            </div>
+          </a>
+        </div>
+        <div class="_40block" data-ix="tile-3">
+          <div class="w-dyn-list hero-tile">
+            <div class="w-dyn-items">
+              <div class="w-dyn-item">
+                <a class="w-inline-block tile-link" href="/projects">
+                  <div class="tile-text">Development
+                    <br>Project</div>
+                  <div class="tile-image welcome">
+                    <div class="tile-overlay"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="_33block" data-ix="tile-3">
+          <div class="hero-tile">
+            <div class="w-dyn-list">
+              <div class="w-dyn-items">
+                <div class="w-dyn-item">
+                  <a class="w-inline-block tile-link" href="/events_news">
+                    <div class="tile-text">Events
+                      <br>& News</div>
+                    <div class="tile-image sully-street">
+                      <div class="tile-overlay"></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="_33block" data-ix="tile-2">
+          <a class="w-inline-block hero-tile" data-ix="show-contact-overlay" href="#">
+            <div class="tile-text">Join
+              <br>Us</div>
+            <div class="tile-image hire">
+              <div class="tile-overlay"></div>
+            </div>
+          </a>
+        </div>
+        <div class="_33block" data-ix="tile-4">
+          <div class="w-clearfix">
+            <a class="w-inline-block social-block" href="//twitter.com/friendsofSUS" target="_blank"></a>
+            <a class="w-inline-block social-block facebook" href="//facebook.com/friendsofsullivan" target="_blank"></a>
+            <a class="w-inline-block social-block pinterest" href="//www.linkedin.com/groups/7042869/profile" target="_blank"></a>
+            <a class="w-inline-block social-block dribbble" target="_blank" href="//www.sullivanupper.co.uk/"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- <%- include('partials/footer') %> -->
+  
