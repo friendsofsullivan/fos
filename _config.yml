@@ -1,11 +1,11 @@
 # Site Settings
-title: Start Jekyll
-email: friendsofsullivan@gmail.com
+title: Friends of Sullivan
+email: harry@friendsofsullivan.com
 description: >
-  A guide to getting started with Jekyll.
+  We are a community of past alumni, friends, family, local parents and more, working together to sustain a future for Sullivan equivalent to the 140 years that have come before us.
 baseurl: "/fos"
 url: "//friendsofsullivan.github.io"
-twitter_username: friendsofsullivan
+twitter_username: sullivanalumni
 github_username:  friendsofsullivan
 # Build Settings
 sass:
