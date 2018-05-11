@@ -4,7 +4,7 @@ email: friendsofsullivan@gmail.com
 description: >
   A guide to getting started with Jekyll.
 baseurl: "/fos"
-url: "http://friendsofsullivan.github.io"
+url: "//friendsofsullivan.github.io"
 twitter_username: friendsofsullivan
 github_username:  friendsofsullivan
 # Build Settings

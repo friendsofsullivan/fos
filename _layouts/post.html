@@ -1,8 +1,21 @@
 ---
 layout: default
 ---
+	
+  <div class="w-section hero-section fund-page">
+    {% include navbar.html %}
+    <h1>{{ page.title }}</h1>
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="w-section section">
+    <div class="w-container">
+      <div class="w-richtext">
+        <h2>Sullivan Upper School {{ page.title }} </h2>
+        <div class="alternate-image with-padding">
+               <iframe class="project-flyby" src="https://www.youtube.com/embed/CMJSX-4OWIA" frameborder="0" allowfullscreen></iframe>
+        </div>
 
-<h2>{{ page.title }}</h2>
-<time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
-
-{{ content }}
+        {{ content }}
+      </div>
+    </div>
+   </div>
