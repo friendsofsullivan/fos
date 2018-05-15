@@ -13,10 +13,10 @@
         </div>
         <div class="w-col w-col-9 w-clearfix footer-link-col">
           <a class="nav-link footer-link contact" data-ix="show-contact-overlay" href="#">Join Us</a>
-          <a class="nav-link footer-link" href="/events">Events</a>
-          <a class="nav-link footer-link" href="/about">About</a>
+          <a class="nav-link footer-link" href="{{ "/events" | prepend: site.baseurl }}">Events</a>
+          <a class="nav-link footer-link" href="{{ "/about" | prepend: site.baseurl }}">About</a>
           <a class="nav-link footer-link" href="{{ "/projects" | prepend: site.baseurl }}">Projects</a>
-          <a class="nav-link footer-link" href="/">Home</a>
+          <a class="nav-link footer-link" href="{{ site.baseurl }}">Home</a>
         </div>
       </div>
     </div>
