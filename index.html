@@ -14,7 +14,7 @@ layout: default
     <div class="w-container hero-container">
       <div class="w-clearfix">
         <div class="_60block" data-ix="tile-1">
-          <a class="w-inline-block hero-tile" href="/about/">
+          <a class="w-inline-block hero-tile" href="{{ "/about" | prepend: site.baseurl }}">
             <div class="tile-text">About
               <br>Us</div>
             <div class="tile-image">
@@ -26,7 +26,7 @@ layout: default
           <div class="w-dyn-list hero-tile">
             <div class="w-dyn-items">
               <div class="w-dyn-item">
-                <a class="w-inline-block tile-link" href="/projects/">
+                <a class="w-inline-block tile-link" href="{{ "/projects" | prepend: site.baseurl }}">
                   <div class="tile-text">Development
                     <br>Project</div>
                   <div class="tile-image welcome">
@@ -42,7 +42,7 @@ layout: default
             <div class="w-dyn-list">
               <div class="w-dyn-items">
                 <div class="w-dyn-item">
-                  <a class="w-inline-block tile-link" href="/events">
+                  <a class="w-inline-block tile-link" href="{{ "/events" | prepend: site.baseurl }}">
                     <div class="tile-text">Events
                       <br>& News</div>
                     <div class="tile-image sully-street">

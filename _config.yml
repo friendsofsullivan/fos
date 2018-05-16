@@ -3,8 +3,8 @@ title: Friends of Sullivan
 email: harry@friendsofsullivan.com
 description: >
   We are a community of past alumni, friends, family, local parents and more, working together to sustain a future for Sullivan equivalent to the 140 years that have come before us.
-baseurl: "/"
-url: "http://friendsofsullivan.github.io/fos"
+baseurl: "/fos"
+url: "//friendsofsullivan.github.io/fos"
 twitter_username: sullivanalumni
 github_username:  friendsofsullivan
 # Build Settings
