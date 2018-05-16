@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "London 2017 Meetup"
+date:   2017-10-10
+categories: events fundraising meetups
+description: It was great to see an array of year groups present at our first alumni evening in London for over 30 years. 
+past-event: "Yes"
+video-link: //www.youtube.com/embed/CMJSX-4OWIA
+
+---
+It was great to see an array of year groups present at our first alumni evening in London for over 30 years. An enjoyable evening was had by all, catching up with former compatriots and meeting new ones. Contact us to register
+your interest for the 2018 meet-up.

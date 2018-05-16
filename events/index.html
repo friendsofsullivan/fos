@@ -8,13 +8,9 @@ layout: default
 {% endfor %} -->
 
   <div class="w-section hero-section blog-hero">
-
   	{% include navbar.html %}
-    
     <div class="hero-overlay"></div>
-    <!-- <%- include('partials/nav_bar') %> -->
     <h1>What's on & updates</h1>
-  
   </div>
 
   <div class="w-section section">
@@ -22,62 +18,25 @@ layout: default
       <div class="w-richtext">
           <h2>Upcoming Events & News</h2>
       </div>
+      <br>
       <div class="w-dyn-list">
         <div class="w-dyn-items w-row">
-
-        {% for post in site.posts %}
-           {% unless post.past-event == 'Yes' %}
-	         <div class="w-dyn-item w-col w-col-4 blog-block">
-	            <a class="w-inline-block project-link blog-link" href="{{ post.external-link }}" target="_blank"data-ix="blog-link">
-	              <div class="blog-image-wrapper">
-	                <div class="blog-date">Date: {{ post.date | date: "%b %-d, %Y"}}</div>
-	                <div class="blog-category">Buy Tickets</div>
-	                <div class="blog-image sport-event"></div>
-	              </div>
-	              <div class="blog-title">{{ post.title }}</div>
-	              <div class="blog-description">{{ post.description }}</div>
-	           </a>
-	          </div>
-            {% endunless %}
-		     {% endfor %}
-
-          <div class="w-dyn-item w-col w-col-4 blog-block">
-            <a class="w-inline-block project-link blog-link" href="#" data-ix="blog-link">
-              <div class="blog-image-wrapper">
-                <div class="blog-date">Date:  TBC</div>
-                <div class="blog-category">Event</div>
-                <div class="blog-image gala-ball"></div>
-              </div>
-              <div class="blog-title">Belfast Event</div>
-              <div class="blog-description">After a highly successful 140th School Anniversary celebration, the Friends of Sullivan community will continue to organise annual funding events so stay tuned to find out more on our next Belfast event.</div>
-            </a>
+              {% for post in site.posts %}
+                 {% unless post.past-event == 'Yes' %}
+      	         <div class="w-dyn-item w-col w-col-4 blog-block">
+      	            <a style="color:#00AB59; height: 140px;" class="w-inline-block project-link blog-link small" href="{{ post.external-link }}" target="_blank"data-ix="blog-link">
+      <!-- 	          <div class="blog-image-wrapper">
+      	                <div class="blog-date">Date: {{ post.date | date: "%b %-d, %Y"}}</div>
+      	                <div class="blog-category">Buy Tickets</div>
+      	                <div class="blog-image sport-event"></div>
+      	              </div> -->
+      	              <div class="blog-title">{{ post.title }}</div>
+      	              <div class="blog-description">{{ post.description }}</div>
+      	           </a>
+      	          </div>
+                  {% endunless %}
+      		     {% endfor %}
           </div>
-          <div class="w-dyn-item w-col w-col-4 blog-block">
-            <a class="w-inline-block project-link blog-link" href="#" data-ix="blog-link">
-              <div class="blog-image-wrapper">
-                <div class="blog-date">Date: TBC</div>
-                <div class="blog-category">Event</div>
-                <div class="blog-image ed-event"></div>
-              </div>
-              <div class="blog-title">Edinburgh Event</div>
-              <div class="blog-description">The Friends of Sullivan community reaches far and wide. We therefore intend to hold an evening reception/dinner in Edinburgh to provide an opportunity for Sullivan ‘ex-pats’ to re-connect with their follow Alumni and friends.</div>
-            </a>
-          </div>
-          <div class="w-dyn-item w-col w-col-4 blog-block">
-            <a class="w-inline-block project-link blog-link" href="#" data-ix="blog-link">
-              <div class="blog-image-wrapper">
-                <div class="blog-date">Date: TBC</div>
-                <div class="blog-category">Event</div>
-                <div class="blog-image lond-event"></div>
-              </div>
-              <div class="blog-title">London Event</div>
-              <div class="blog-description">The Friends of Sullivan community reaches far and wide. We therefore intend to hold an evening reception/dinner in London to provide an opportunity for Sullivan ‘ex-pats’ to re-connect with their fellow Alumni and friends. More info in due course.</div>
-            </a>
-          </div>
-        </div>
-        <!-- <div class="w-dyn-empty">
-          <p>No items found.</p>
-        </div> -->
       </div>
     </div>
   </div>
@@ -93,19 +52,19 @@ layout: default
       <div class="w-richtext">
           <h2>Past events and photos</h2>
       </div>
-
+      <br>
       <div class="w-dyn-list">
         <div class="w-dyn-items w-row">
 
         {% for post in site.posts %}
            {% unless post.past-event == 'No' %}
            <div class="w-dyn-item w-col w-col-4 blog-block">
-              <a class="w-inline-block project-link blog-link" href="{{ post.url | prepend: site.baseurl }}" target="_blank"data-ix="blog-link">
-                <div class="blog-image-wrapper">
+              <a style="color:#00AB59; height: 140px;" class="w-inline-block project-link blog-link" href="{{ post.url | prepend: site.baseurl }}" target="_blank"data-ix="blog-link">
+       <!--     <div class="blog-image-wrapper">
                   <div class="blog-date">Date: {{ post.date | date: "%b %-d, %Y"}}</div>
                   <div class="blog-category">Buy Tickets</div>
                   <div class="blog-image gala-ball"></div>
-                </div>
+                </div> -->
                 <div class="blog-title">{{ post.title }}</div>
                 <div class="blog-description">{{ post.description }}</div>
              </a>

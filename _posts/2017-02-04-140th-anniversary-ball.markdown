@@ -5,6 +5,8 @@ date:   2017-02-04
 categories: events fundraising
 description: Over 600 attendees sold out Titanic Belfast to celebrate 140 years of Sullivan. There was a great atmosphere throughout the night with the event raising a considerable amount for the Sullivan Appeal Fund.
 past-event: "Yes"
+video-link: //www.youtube.com/embed/CMJSX-4OWIA
+
 ---
 We celebrated the school’s 140th Anniversary in spectacular fashion with a Gala Ball at Titanic Belfast on 4th February 2017.
 
