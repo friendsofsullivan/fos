@@ -13,6 +13,9 @@ Need to add two config files and run below command.   Then add subdomain www.fos
  ```bash
 jekyll serve --config _config.yml,_config_dev.yml
 ```
+## Google Script for sign ups
+
+Google form held on FOS googleDrive (link to code for embedding form is in settings)
 
 ## More information
 
